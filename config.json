@@ -1,0 +1,38 @@
+{
+  "admin_settings": {
+    "admin_password": "ADMIN_PASSWORD_HERE"
+  },
+  "users": [
+    {
+      "id": "DEVICE_ID_001",
+      "username": "Evan",
+      "role": "admin",
+      "password": "123",
+      "expiresAt": "2026-12-31T23:59:59",
+      "trial_end": "2026-07-03T15:00:00",
+      "is_trial_used": true,
+      "allowOffline": false
+    },
+    {
+      "id": "DEVICE_ID_002",
+      "username": "User_02",
+      "role": "user",
+      "password": "456",
+      "expiresAt": "2026-08-01T23:59:59",
+      "trial_end": "2026-07-05T10:00:00",
+      "is_trial_used": false,
+      "allowOffline": false
+    },
+    {
+      "id": "DEVICE_ID_003",
+      "username": "User_03",
+      "role": "user",
+      "password": "789",
+      "expiresAt": "2026-09-01T23:59:59",
+      "trial_end": "2026-07-10T12:00:00",
+      "is_trial_used": false,
+      "allowOffline": false
+    }
+  ]
+}
+
